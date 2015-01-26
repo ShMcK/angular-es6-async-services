@@ -52,4 +52,4 @@ It's even easier than it looks. Read more about ES6 Generators:
 - [MDN function*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
 - [Synchronizing Asynchronous JavaScript ES7](http://www.joezimjs.com/javascript/synchronizing-asynchronous-javascript-es7/)
 
-Note: `done()` does not need to be called after `spawn` has finished. Spawned aren't intended to return anything beyond `undefined`.
+Note: `done()` does not need to be called after `spawn` has finished. Spawned functions aren't intended to return anything beyond `undefined`.
