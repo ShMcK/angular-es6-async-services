@@ -4,9 +4,10 @@ Services to utilize the power of ES6 Generators.
 Write your async code in a synchronous fashion and feel like a human again using the `spawn` tool. 
 
 ## Setup
-Add this simple file to your project with the dependency `"angular-es6-async"`
+Add this simple file to your project with the dependency `"angular-es6-async"`.
 
 ## Example
+`spawn()` simply wraps around your `function*(){}` and runs the generator until it is complete. Use a `try{}` `catch(e){}` block for better error handling.
 
 ```
 function example (var1, var2) {
