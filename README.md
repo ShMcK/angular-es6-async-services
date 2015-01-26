@@ -46,4 +46,4 @@ function example (var1, var2) {
    5. 'fifth', 'sixth' & 'seventh' are called simultaneously, wait for any to finish
    6. when one of 5-7 has finished, console.log
 
-Note: `done()` does not need to be called after spawn has finished. Spawned functions return only undefined.
+Note: `done()` does not need to be called after spawn has finished. Spawned functions return only `undefined`.
