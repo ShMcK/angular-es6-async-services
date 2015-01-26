@@ -39,11 +39,11 @@ function example (var1, var2) {
 }
 ```
 Order of operations:
-1) 'first' is called
-2) wait for the 'secondDependency' to get a value
-3) 'second', 'third', & 'fourth' are called simultaneously, wait for all to finish
-4) when all 2-4 have completed, console.log
-5) 'fifth', 'sixth' & 'seventh' are called simultaneously, wait for any to finish
-6) when one of 5-7 has finished, console.log
+1. 'first' is called
+2. wait for the 'secondDependency' to get a value
+3. 'second', 'third', & 'fourth' are called simultaneously, wait for all to finish
+4. when all 2-4 have completed, console.log
+5. 'fifth', 'sixth' & 'seventh' are called simultaneously, wait for any to finish
+6. when one of 5-7 has finished, console.log
 
 Done does not need to be called after spawn has finished.
