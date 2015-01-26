@@ -3,10 +3,12 @@ Services to utilize the power of ES6 Generators.
 
 Write your async code in a synchronous fashion and feel like a human again using the `spawn` tool.
 
-This service is basically just taken from [Jake Archibalds blog post here.](http://jakearchibald.com/2014/es7-async-functions/) and tossed into an Angular service. Although there are a lot of ES6 Generator libraries for Node.js, (eg. [co](https://github.com/tj/co)), there's not much currently available for the browser. However, you can get started with ES6 in the browser today using compilers such as [Traceur](https://github.com/google/traceur-compiler) or [6to5](https://github.com/6to5/6to5).
+This service is basically just taken from [Jake Archibalds blog post here.](http://jakearchibald.com/2014/es7-async-functions/) and tossed into Angular. Although there are a lot of ES6 Generator libraries for Node.js, (eg. [co](https://github.com/tj/co)), there's not much currently available for the browser.
 
 ## Setup
 Add `spawn.js` to your project with the dependency `"angular-es6-async"`. Or rename it whatever you'd like, it's super basic.
+
+You'll also need to setup ES6. You can get started with ES6 in the browser today using compilers such as [Traceur](https://github.com/google/traceur-compiler) or [6to5](https://github.com/6to5/6to5). Or if you'd just like to play with generators, Facebook has a project called [Regenerator](https://github.com/facebook/regenerator).
 
 ## Example
 `spawn()` simply wraps around your `function*(){}` and runs the generator until it is complete. Use a `try{}` `catch(e){}` block for better error handling.
